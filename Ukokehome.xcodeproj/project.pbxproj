@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B540F9172159DC7A00A875B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B540F9162159DC7A00A875B3 /* AppDelegate.m */; };
+		B540F91A2159DC7A00A875B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B540F9192159DC7A00A875B3 /* ViewController.m */; };
+		B540F91D2159DC7A00A875B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B540F91B2159DC7A00A875B3 /* Main.storyboard */; };
+		B540F91F2159DC7B00A875B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B540F91E2159DC7B00A875B3 /* Assets.xcassets */; };
+		B540F9222159DC7B00A875B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B540F9202159DC7B00A875B3 /* LaunchScreen.storyboard */; };
+		B540F9252159DC7B00A875B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B540F9242159DC7B00A875B3 /* main.m */; };
+		B540F92F2159DC7B00A875B3 /* UkokehomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B540F92E2159DC7B00A875B3 /* UkokehomeTests.m */; };
+		B540F93A2159DC7B00A875B3 /* UkokehomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B540F9392159DC7B00A875B3 /* UkokehomeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B540F92B2159DC7B00A875B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B540F90A2159DC7A00A875B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B540F9112159DC7A00A875B3;
+			remoteInfo = Ukokehome;
+		};
+		B540F9362159DC7B00A875B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B540F90A2159DC7A00A875B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B540F9112159DC7A00A875B3;
+			remoteInfo = Ukokehome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B540F9122159DC7A00A875B3 /* Ukokehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ukokehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B540F9152159DC7A00A875B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B540F9162159DC7A00A875B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B540F9182159DC7A00A875B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B540F9192159DC7A00A875B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B540F91C2159DC7A00A875B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B540F91E2159DC7B00A875B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B540F9212159DC7B00A875B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B540F9232159DC7B00A875B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B540F9242159DC7B00A875B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B540F92A2159DC7B00A875B3 /* UkokehomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkokehomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B540F92E2159DC7B00A875B3 /* UkokehomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UkokehomeTests.m; sourceTree = "<group>"; };
+		B540F9302159DC7B00A875B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B540F9352159DC7B00A875B3 /* UkokehomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkokehomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B540F9392159DC7B00A875B3 /* UkokehomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UkokehomeUITests.m; sourceTree = "<group>"; };
+		B540F93B2159DC7B00A875B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B540F90F2159DC7A00A875B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B540F9272159DC7B00A875B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B540F9322159DC7B00A875B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B540F9092159DC7A00A875B3 = {
+			isa = PBXGroup;
+			children = (
+				B540F9142159DC7A00A875B3 /* Ukokehome */,
+				B540F92D2159DC7B00A875B3 /* UkokehomeTests */,
+				B540F9382159DC7B00A875B3 /* UkokehomeUITests */,
+				B540F9132159DC7A00A875B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B540F9132159DC7A00A875B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B540F9122159DC7A00A875B3 /* Ukokehome.app */,
+				B540F92A2159DC7B00A875B3 /* UkokehomeTests.xctest */,
+				B540F9352159DC7B00A875B3 /* UkokehomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B540F9142159DC7A00A875B3 /* Ukokehome */ = {
+			isa = PBXGroup;
+			children = (
+				B540F9152159DC7A00A875B3 /* AppDelegate.h */,
+				B540F9162159DC7A00A875B3 /* AppDelegate.m */,
+				B540F9182159DC7A00A875B3 /* ViewController.h */,
+				B540F9192159DC7A00A875B3 /* ViewController.m */,
+				B540F91B2159DC7A00A875B3 /* Main.storyboard */,
+				B540F91E2159DC7B00A875B3 /* Assets.xcassets */,
+				B540F9202159DC7B00A875B3 /* LaunchScreen.storyboard */,
+				B540F9232159DC7B00A875B3 /* Info.plist */,
+				B540F9242159DC7B00A875B3 /* main.m */,
+			);
+			path = Ukokehome;
+			sourceTree = "<group>";
+		};
+		B540F92D2159DC7B00A875B3 /* UkokehomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B540F92E2159DC7B00A875B3 /* UkokehomeTests.m */,
+				B540F9302159DC7B00A875B3 /* Info.plist */,
+			);
+			path = UkokehomeTests;
+			sourceTree = "<group>";
+		};
+		B540F9382159DC7B00A875B3 /* UkokehomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B540F9392159DC7B00A875B3 /* UkokehomeUITests.m */,
+				B540F93B2159DC7B00A875B3 /* Info.plist */,
+			);
+			path = UkokehomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B540F9112159DC7A00A875B3 /* Ukokehome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B540F93E2159DC7B00A875B3 /* Build configuration list for PBXNativeTarget "Ukokehome" */;
+			buildPhases = (
+				B540F90E2159DC7A00A875B3 /* Sources */,
+				B540F90F2159DC7A00A875B3 /* Frameworks */,
+				B540F9102159DC7A00A875B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ukokehome;
+			productName = Ukokehome;
+			productReference = B540F9122159DC7A00A875B3 /* Ukokehome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B540F9292159DC7B00A875B3 /* UkokehomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B540F9412159DC7B00A875B3 /* Build configuration list for PBXNativeTarget "UkokehomeTests" */;
+			buildPhases = (
+				B540F9262159DC7B00A875B3 /* Sources */,
+				B540F9272159DC7B00A875B3 /* Frameworks */,
+				B540F9282159DC7B00A875B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B540F92C2159DC7B00A875B3 /* PBXTargetDependency */,
+			);
+			name = UkokehomeTests;
+			productName = UkokehomeTests;
+			productReference = B540F92A2159DC7B00A875B3 /* UkokehomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B540F9342159DC7B00A875B3 /* UkokehomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B540F9442159DC7B00A875B3 /* Build configuration list for PBXNativeTarget "UkokehomeUITests" */;
+			buildPhases = (
+				B540F9312159DC7B00A875B3 /* Sources */,
+				B540F9322159DC7B00A875B3 /* Frameworks */,
+				B540F9332159DC7B00A875B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B540F9372159DC7B00A875B3 /* PBXTargetDependency */,
+			);
+			name = UkokehomeUITests;
+			productName = UkokehomeUITests;
+			productReference = B540F9352159DC7B00A875B3 /* UkokehomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B540F90A2159DC7A00A875B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ethome;
+				TargetAttributes = {
+					B540F9112159DC7A00A875B3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B540F9292159DC7B00A875B3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B540F9112159DC7A00A875B3;
+					};
+					B540F9342159DC7B00A875B3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B540F9112159DC7A00A875B3;
+					};
+				};
+			};
+			buildConfigurationList = B540F90D2159DC7A00A875B3 /* Build configuration list for PBXProject "Ukokehome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B540F9092159DC7A00A875B3;
+			productRefGroup = B540F9132159DC7A00A875B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B540F9112159DC7A00A875B3 /* Ukokehome */,
+				B540F9292159DC7B00A875B3 /* UkokehomeTests */,
+				B540F9342159DC7B00A875B3 /* UkokehomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B540F9102159DC7A00A875B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B540F9222159DC7B00A875B3 /* LaunchScreen.storyboard in Resources */,
+				B540F91F2159DC7B00A875B3 /* Assets.xcassets in Resources */,
+				B540F91D2159DC7A00A875B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B540F9282159DC7B00A875B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B540F9332159DC7B00A875B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B540F90E2159DC7A00A875B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B540F91A2159DC7A00A875B3 /* ViewController.m in Sources */,
+				B540F9252159DC7B00A875B3 /* main.m in Sources */,
+				B540F9172159DC7A00A875B3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B540F9262159DC7B00A875B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B540F92F2159DC7B00A875B3 /* UkokehomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B540F9312159DC7B00A875B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B540F93A2159DC7B00A875B3 /* UkokehomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B540F92C2159DC7B00A875B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B540F9112159DC7A00A875B3 /* Ukokehome */;
+			targetProxy = B540F92B2159DC7B00A875B3 /* PBXContainerItemProxy */;
+		};
+		B540F9372159DC7B00A875B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B540F9112159DC7A00A875B3 /* Ukokehome */;
+			targetProxy = B540F9362159DC7B00A875B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B540F91B2159DC7A00A875B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B540F91C2159DC7A00A875B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B540F9202159DC7B00A875B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B540F9212159DC7B00A875B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B540F93C2159DC7B00A875B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B540F93D2159DC7B00A875B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B540F93F2159DC7B00A875B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ukokehome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethome.www.Ukokehome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B540F9402159DC7B00A875B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ukokehome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethome.www.Ukokehome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B540F9422159DC7B00A875B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UkokehomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethome.www.UkokehomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ukokehome.app/Ukokehome";
+			};
+			name = Debug;
+		};
+		B540F9432159DC7B00A875B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UkokehomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethome.www.UkokehomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ukokehome.app/Ukokehome";
+			};
+			name = Release;
+		};
+		B540F9452159DC7B00A875B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UkokehomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethome.www.UkokehomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ukokehome;
+			};
+			name = Debug;
+		};
+		B540F9462159DC7B00A875B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UkokehomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethome.www.UkokehomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ukokehome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B540F90D2159DC7A00A875B3 /* Build configuration list for PBXProject "Ukokehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B540F93C2159DC7B00A875B3 /* Debug */,
+				B540F93D2159DC7B00A875B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B540F93E2159DC7B00A875B3 /* Build configuration list for PBXNativeTarget "Ukokehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B540F93F2159DC7B00A875B3 /* Debug */,
+				B540F9402159DC7B00A875B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B540F9412159DC7B00A875B3 /* Build configuration list for PBXNativeTarget "UkokehomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B540F9422159DC7B00A875B3 /* Debug */,
+				B540F9432159DC7B00A875B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B540F9442159DC7B00A875B3 /* Build configuration list for PBXNativeTarget "UkokehomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B540F9452159DC7B00A875B3 /* Debug */,
+				B540F9462159DC7B00A875B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B540F90A2159DC7A00A875B3 /* Project object */;
+}
