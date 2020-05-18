@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Ukokehome
+
+  Created by ethome on 2018/9/27.
+  Copyright © 2018年 ethome. All rights reserved.
+*/
+"No device" = "No device";
+"Network error,Recheck the network" = "Network error,Recheck the network";
+"Click to refresh" = "Click to refresh";
+"The request failed,Please try again" = "The request failed,Please try again";
+"Control everything" = "Control everything";
+"with just one device" = "with just one device";

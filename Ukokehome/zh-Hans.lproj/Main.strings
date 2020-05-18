@@ -1,0 +1,87 @@
+
+/* Class = "UILabel"; text = "℃"; ObjectID = "1an-FP-RWo"; */
+"1an-FP-RWo.text" = "℃";
+
+/* Class = "UIButton"; normalTitle = "Cool"; ObjectID = "1hP-55-cpN"; */
+"1hP-55-cpN.normalTitle" = "Cool";
+
+/* Class = "UIButton"; normalTitle = "Swing"; ObjectID = "3IC-2o-S5b"; */
+"3IC-2o-S5b.normalTitle" = "Swing";
+
+/* Class = "UILabel"; text = "25℃"; ObjectID = "9Vx-Ah-Ldn"; */
+"9Vx-Ah-Ldn.text" = "25℃";
+
+/* Class = "UISegmentedControl"; AZE-wM-ZQZ.segmentTitles[0] = "ON"; ObjectID = "AZE-wM-ZQZ"; */
+"AZE-wM-ZQZ.segmentTitles[0]" = "ON";
+
+/* Class = "UISegmentedControl"; AZE-wM-ZQZ.segmentTitles[1] = "OFF"; ObjectID = "AZE-wM-ZQZ"; */
+"AZE-wM-ZQZ.segmentTitles[1]" = "OFF";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Home";
+
+/* Class = "UILabel"; text = "20℃"; ObjectID = "C09-Ic-Df5"; */
+"C09-Ic-Df5.text" = "20℃";
+
+/* Class = "UIButton"; normalTitle = "Heat"; ObjectID = "FPv-g7-Pgq"; */
+"FPv-g7-Pgq.normalTitle" = "Heat";
+
+/* Class = "UIButton"; normalTitle = "Fan"; ObjectID = "GXC-Za-mGV"; */
+"GXC-Za-mGV.normalTitle" = "Fan";
+
+/* Class = "UITabBarItem"; title = "HOME"; ObjectID = "GaT-6C-7vi"; */
+"GaT-6C-7vi.title" = "HOME";
+
+/* Class = "UILabel"; text = "Air Conditioner"; ObjectID = "Jsq-nc-rI8"; */
+"Jsq-nc-rI8.text" = "Air Conditioner";
+
+/* Class = "UILabel"; text = "Speed"; ObjectID = "L4h-7y-u02"; */
+"L4h-7y-u02.text" = "Speed";
+
+/* Class = "UILabel"; text = "Humidity:79%"; ObjectID = "NaV-bp-6Gp"; */
+"NaV-bp-6Gp.text" = "Humidity:79%";
+
+/* Class = "UILabel"; text = "Kitchen/Home"; ObjectID = "NiQ-w1-YF6"; */
+"NiQ-w1-YF6.text" = "Kitchen/Home";
+
+/* Class = "UILabel"; text = "Temperature:23℃"; ObjectID = "OQ3-F5-zvS"; */
+"OQ3-F5-zvS.text" = "Temperature:23℃";
+
+/* Class = "UILabel"; text = "Kitchen/Home"; ObjectID = "Oj9-sh-N3A"; */
+"Oj9-sh-N3A.text" = "Kitchen/Home";
+
+/* Class = "UITabBarItem"; title = "SHOP"; ObjectID = "SbQ-aC-7oq"; */
+"SbQ-aC-7oq.title" = "SHOP";
+
+/* Class = "UIButton"; normalTitle = "Timer"; ObjectID = "V0z-Xz-jQL"; */
+"V0z-Xz-jQL.normalTitle" = "Timer";
+
+/* Class = "UILabel"; text = "AIR CONDITIONER"; ObjectID = "ZUx-Ve-w1P"; */
+"ZUx-Ve-w1P.text" = "AIR CONDITIONER";
+
+/* Class = "UILabel"; text = "Livingroom/Home"; ObjectID = "a7Z-2i-SxB"; */
+"a7Z-2i-SxB.text" = "Livingroom/Home";
+
+/* Class = "UIViewController"; title = "AC"; ObjectID = "aWC-N9-ISS"; */
+"aWC-N9-ISS.title" = "AC";
+
+/* Class = "UILabel"; text = "Air Conditioner"; ObjectID = "jb9-Ke-XHU"; */
+"jb9-Ke-XHU.text" = "Air Conditioner";
+
+/* Class = "UITabBarItem"; title = "SETTINGS"; ObjectID = "kb1-iJ-svU"; */
+"kb1-iJ-svU.title" = "SETTINGS";
+
+/* Class = "UIButton"; normalTitle = "Dry"; ObjectID = "mKH-vV-ZZ5"; */
+"mKH-vV-ZZ5.normalTitle" = "Dry";
+
+/* Class = "UILabel"; text = "20℃"; ObjectID = "pYN-5b-LUQ"; */
+"pYN-5b-LUQ.text" = "20℃";
+
+/* Class = "UISegmentedControl"; vHi-LV-rsy.segmentTitles[0] = "ON"; ObjectID = "vHi-LV-rsy"; */
+"vHi-LV-rsy.segmentTitles[0]" = "ON";
+
+/* Class = "UISegmentedControl"; vHi-LV-rsy.segmentTitles[1] = "OFF"; ObjectID = "vHi-LV-rsy"; */
+"vHi-LV-rsy.segmentTitles[1]" = "OFF";
+
+/* Class = "UILabel"; text = "/ F"; ObjectID = "vXC-Dn-U51"; */
+"vXC-Dn-U51.text" = "/ F";

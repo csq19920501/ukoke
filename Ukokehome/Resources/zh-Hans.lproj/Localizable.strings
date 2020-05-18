@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Ukokehome
+
+  Created by ethome on 2018/9/27.
+  Copyright © 2018年 ethome. All rights reserved.
+*/
+"No device" = "暂无设备";
+"Network error,Recheck the network" = "网络连接异常, 重新检查网络吧";
+"Click to refresh" = "点击刷新";
+"The request failed,Please try again" = "请求失败，请稍后重试";
+"Control everything" = "控制一切";
+"with just one device" = "只需要一个设备";
