@@ -8,6 +8,10 @@
 
 #import "ETLMKSocketManager.h"
 #import "AsyncSocket.h"
+#include <netdb.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+
 
 /// 心跳间隔
 const NSInteger bitInterval = 10;
@@ -23,7 +27,6 @@ const NSInteger bitInterval = 10;
 @property (nonatomic,copy)sendCompletedBlock completedSendBlock;
 @property (nonatomic,copy)readDataBlock readBlock;
 @property (nonatomic, strong) NSTimer *timer;
-
 
 @end
 
@@ -65,23 +68,61 @@ const NSInteger bitInterval = 10;
     return _serverSocket;
 }
 
+-(NSString*)getIPWithHostName:(const NSString*)hostName
+{
+const char *hostN= [hostName UTF8String];
+struct hostent* phot;
 
-- (void)connectSocket{
-        
+@try {
+phot = gethostbyname(hostN);
+if (phot == nil) {
+return nil;
+}
+}
+@catch (NSException *exception) {
+return nil;
+}
+
+struct in_addr ip_addr;
+memcpy(&ip_addr, phot->h_addr_list[0], 4);
+char ip[20] = {0};
+inet_ntop(AF_INET, &ip_addr, ip, sizeof(ip));
+
+NSString* strIPAddress = [NSString stringWithUTF8String:ip];
+ NSLog(@"csq获取到的hostIP:%@",strIPAddress);
     if ([GlobalKit shareKit].token) {
-        if(![self.serverSocket isDisconnected])
-        {
-            [self.serverSocket disconnect];
-        }
-        [self connectToHost:HOST port:PORT connected:^(NSString *hostIP, NSInteger port) {
-            
-            NSLog(@"hostIP:%@,port:%ld",hostIP,(long)port);
-            
+    if(![self.serverSocket isDisconnected])
+    {
+        [self.serverSocket disconnect];
+    }
+        [self connectToHost:strIPAddress port:PORT connected:^(NSString *hostIP, NSInteger port) {
+                   
+                   NSLog(@"hostIP:%@,port:%ld",hostIP,(long)port);
+                   
         } didDisconnected:^{
-            
-        }];
+                   
+               }];
     }
     
+return strIPAddress;
+}
+
+- (void)connectSocket{
+    [self getIPWithHostName:Socket];
+//    if ([GlobalKit shareKit].token) {
+//        if(![self.serverSocket isDisconnected])
+//        {
+//            [self.serverSocket disconnect];
+//        }
+//
+//        [self connectToHost:HOST port:PORT connected:^(NSString *hostIP, NSInteger port) {
+//
+//            NSLog(@"hostIP:%@,port:%ld",hostIP,(long)port);
+//
+//        } didDisconnected:^{
+//
+//        }];
+//    }
 }
 
 - (void)disconnectSocket{

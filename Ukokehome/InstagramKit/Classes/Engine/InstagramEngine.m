@@ -198,11 +198,15 @@
 
 - (NSDictionary *)authorizationParametersWithScope:(InstagramKitLoginScope)scope
 {
-    NSString *scopeString = [self stringForScope:scope];
+//    NSString *scopeString = [self stringForScope:scope];
+//    NSDictionary *parameters = @{ @"client_id": self.appClientID,
+//                                  @"redirect_uri": self.appRedirectURL,
+//                                  @"response_type": @"token",
+//                                  @"scope": scopeString };
     NSDictionary *parameters = @{ @"client_id": self.appClientID,
-                                  @"redirect_uri": self.appRedirectURL,
-                                  @"response_type": @"token",
-                                  @"scope": scopeString };
+    @"redirect_uri": self.appRedirectURL,
+    @"response_type": @"code",
+    @"scope": @"user_profile" };
     return parameters;
 }
 

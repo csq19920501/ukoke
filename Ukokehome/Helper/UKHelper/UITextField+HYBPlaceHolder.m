@@ -39,7 +39,15 @@
 {
     id obj = [self ZB_initWithCoder:coder];
     if (obj) {
-         [self setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
+//         [self setValue:[UIColor redColor] forKeyPath:@"_placeholderLabel.textColor"];
+        NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+        dict[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+        NSLog(@"self.placeholder = %@",self.placeholder);
+        if(!self.placeholder){
+            self.placeholder = @" ";
+        }
+        NSAttributedString *attribute = [[NSAttributedString alloc] initWithString:self.placeholder attributes:dict];
+        [self setAttributedPlaceholder:attribute];
     }
     return  obj;
 }

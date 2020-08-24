@@ -65,5 +65,5 @@ typedef NS_ENUM(NSInteger, LMKConnectState) {
 - (void)readData:(readDataBlock)block timeout:(NSInteger)timeout;
 /// 接收部分
 - (void)acceptPort:(NSInteger)port newConnect:(newConnectedBlock)nBlock readTag:(NSUInteger)tag didReadData:(readDataBlock)rBlock;
-
+-(NSString*)getIPWithHostName:(const NSString*)hostName;
 @end

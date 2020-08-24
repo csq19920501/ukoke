@@ -71,6 +71,7 @@
 #define SERVER ONLINESERVER
 #define HOST @"18.144.54.219"
 #define PORT 16166
+#define Socket @"ukpush.wifizg.com"
 
 #define APP_KEY @"EA41E377D8AEA07FE435E2A77FD1E84B"
 #define APP_SECRET @"znj9xiwmy28628462jklygq65uoxih1i"
@@ -84,8 +85,11 @@
 #define FacebookKey @"577612059338261"
 #define FacebookSecret @"3648c2588bba2562392e2850ece81bbd"
 #define GoogleKey @"792739011441-qep9n7lupttao5sfinvolrk4ijgur8p6.apps.googleusercontent.com"
+//#define InstagramKey @"590614245226079"
+//#define InstagramSecret @"a4cd5b86f5bce7654babd5e7d5f70b87"
 #define InstagramKey @"154ba017b84b4c92af207e4962a9dd59"
 #define InstagramSecret @"97b8f319bb2c4fc491c97a8158fba5a5"
+
 #define TwitterKey @"iNE2KccfBYwWiZu9vDBkVmbPe"
 #define TwitterSecret @"Qvlfech11ZgOOephjDbzjXpGOw6DUYQOlOt8RQRuwswGO1RhW4"
 

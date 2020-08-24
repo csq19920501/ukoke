@@ -56,7 +56,6 @@
     [self popToHomeViewController];
     
     return NO;
-    
 }
 
 - (void)checkVersionFunction:(NSTimer *)timer{
